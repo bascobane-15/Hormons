@@ -166,9 +166,7 @@ with st.sidebar:
     * 🫀 Dolaşım ve Solunum Sistemi Simülasyonları
            
     Çalışmamız, eğitimde dijital ikiz kullanımını yaygınlaştırmak için geliştirilmeye devam etmektedir.
-    """)
-
-        </div>
+    </div>
     """, unsafe_allow_html=True)
 # -------------------------
 # SAĞ TARAF (ANA SAYFA) İÇERİĞİ
