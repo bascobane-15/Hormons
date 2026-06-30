@@ -274,13 +274,11 @@ if menu == "Ana Sayfa:Hormonlar":
         
     {
         "kelime": "hormon",
-        "dil": "Türkçe",
-        "anlam": "Vücuttaki hücreler arasında iletişimi sağlayan kimyasal habercilerdir."
+        "dil": "Vücuttaki hücreler arasında iletişimi sağlayan kimyasal habercilerdir."
     },
     {
         "kelime": "endokrin sistem",
-        "dil": "Türkçe",
-        "anlam": "Hormonları üreten ve düzenleyen sistemdir."
+        "dil": "Hormonları üreten ve düzenleyen sistemdir."
     }
 ]
        
