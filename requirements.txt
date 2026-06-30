@@ -1,6 +1,6 @@
 streamlit
 pandas
-numpy
 plotly
-matplotlib
-google-generativeai
+folium
+streamlit-folium
+numpy
