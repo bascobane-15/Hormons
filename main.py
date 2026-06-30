@@ -270,14 +270,14 @@ if menu == "Ana Sayfa:Hormonlar":
     
     # 4. GÜNÜN KELİMESİ (Sözlük Kutusu)
     kelimeler = [
-        {"kelime": "hormon": "Vücuttaki hücreler arasında iletişimi sağlayan, bezlerden salgılanarak kan yoluyla hedef organlara ulaşan kimyasal habercilerdir."},
-        {"kelime": "reseptör": "Hormonların bağlanarak etkisini başlattığı özel protein yapılarıdır."},
-        {"kelime": "Endokrin Bez": "Hormon üreten ve salgılarını doğrudan kana veren bezlerdir. Hipofiz, tiroit, pankreas gibi"},
-        {"kelime": "Feedback": "Geri Bildirim, Hormon üretiminin vücudun ihtiyacına göre artırılıp azaltılmasını sağlayan kontrol mekanizmasıdır."},
-        {"kelime": "Homeostazi":,: "Vücudun iç dengesini (kan şekeri, sıcaklık, su dengesi gibi) koruma durumudur."},
-        {"kelime": "Hedef Organ": "Bir hormonun etkisini gösterdiği, üzerinde özel hormon alıcıları bulunan organ veya hücrelerdir."},
-        {"kelime": "Metabolizma": "Vücudun enerji üretme, kullanma ve besinleri işleme süreçlerinin tamamıdır."},
-        {"kelime": "Endokrin Sistem": "Hormonları üreten ve vücudun büyüme, gelişme, metabolizma, üreme ve iç denge süreçlerini düzenleyen sistemdir."}
+        {"kelime": "hormon", "anlam":"Vücuttaki hücreler arasında iletişimi sağlayan, bezlerden salgılanarak kan yoluyla hedef organlara ulaşan kimyasal habercilerdir."},
+        {"kelime": "reseptör", "anlam":"Hormonların bağlanarak etkisini başlattığı özel protein yapılarıdır."},
+        {"kelime": "Endokrin Bez", "anlam":"Hormon üreten ve salgılarını doğrudan kana veren bezlerdir. Hipofiz, tiroit, pankreas gibi"},
+        {"kelime": "Feedback", "anlam":"Geri Bildirim, Hormon üretiminin vücudun ihtiyacına göre artırılıp azaltılmasını sağlayan kontrol mekanizmasıdır."},
+        {"kelime": "Homeostazi", "anlam":"Vücudun iç dengesini (kan şekeri, sıcaklık, su dengesi gibi) koruma durumudur."},
+        {"kelime": "Hedef Organ", "anlam": "Bir hormonun etkisini gösterdiği, üzerinde özel hormon alıcıları bulunan organ veya hücrelerdir."},
+        {"kelime": "Metabolizma", "anlam": "Vücudun enerji üretme, kullanma ve besinleri işleme süreçlerinin tamamıdır."},
+        {"kelime": "Endokrin Sistem", "anlam": "Hormonları üreten ve vücudun büyüme, gelişme, metabolizma, üreme ve iç denge süreçlerini düzenleyen sistemdir."}
     ]
     
     gunun_kelimesi = random.choice(kelimeler)
