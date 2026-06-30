@@ -8,7 +8,7 @@ import random
 from streamlit_folium import st_folium
 import streamlit.components.v1 as components
 # Sayfa Ayarları
-st.set_page_config(page_title="BioTwin-Systems", layout="wide")
+st.set_page_config(page_title="Hormonlar", layout="wide")
 
 # -------------------------
 # CSS 
