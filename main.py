@@ -271,15 +271,19 @@ if menu == "Ana Sayfa:Hormonlar":
     
     # 4. GÜNÜN KELİMESİ (Sözlük Kutusu)
     kelimeler = [
-        {"kelime": "hormon", "anlam":"Vücuttaki hücreler arasında iletişimi sağlayan, bezlerden salgılanarak kan yoluyla hedef organlara ulaşan kimyasal habercilerdir."},
-        {"kelime": "reseptör", "anlam":"Hormonların bağlanarak etkisini başlattığı özel protein yapılarıdır."},
-        {"kelime": "Endokrin Bez", "anlam":"Hormon üreten ve salgılarını doğrudan kana veren bezlerdir. Hipofiz, tiroit, pankreas gibi"},
-        {"kelime": "Feedback", "anlam":"Geri Bildirim, Hormon üretiminin vücudun ihtiyacına göre artırılıp azaltılmasını sağlayan kontrol mekanizmasıdır."},
-        {"kelime": "Homeostazi", "anlam":"Vücudun iç dengesini (kan şekeri, sıcaklık, su dengesi gibi) koruma durumudur."},
-        {"kelime": "Hedef Organ", "anlam": "Bir hormonun etkisini gösterdiği, üzerinde özel hormon alıcıları bulunan organ veya hücrelerdir."},
-        {"kelime": "Metabolizma", "anlam": "Vücudun enerji üretme, kullanma ve besinleri işleme süreçlerinin tamamıdır."},
-        {"kelime": "Endokrin Sistem", "anlam": "Hormonları üreten ve vücudun büyüme, gelişme, metabolizma, üreme ve iç denge süreçlerini düzenleyen sistemdir."}
-    ]
+        
+    {
+        "kelime": "hormon",
+        "dil": "Türkçe",
+        "anlam": "Vücuttaki hücreler arasında iletişimi sağlayan kimyasal habercilerdir."
+    },
+    {
+        "kelime": "endokrin sistem",
+        "dil": "Türkçe",
+        "anlam": "Hormonları üreten ve düzenleyen sistemdir."
+    }
+]
+       
     
     gunun_kelimesi = random.choice(kelimeler)
 
