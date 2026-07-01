@@ -356,7 +356,7 @@ st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
-elif menu == "🟠 Kortizol"
+elif menu == "🟠 Kortizol":
     st.title("Kortizol: Stres ve Sistemik Etkiler")
     
     # 1. GİRDİ ALANI
