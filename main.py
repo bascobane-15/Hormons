@@ -154,7 +154,7 @@ with st.sidebar:
     
     menu = st.selectbox(
         "📍 Sayfanızı Seçin",
-         ["Ana Sayfa:Hormonlar", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
+         ["Ana Sayfa", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
     )
 
     st.markdown("---")
@@ -172,7 +172,7 @@ with st.sidebar:
 # -------------------------
 # SAĞ TARAF (ANA SAYFA) İÇERİĞİ
 # -------------------------
-if menu == "Ana Sayfa:Hormonlar":
+if menu == "Ana Sayfa":
 
     # GLOBAL FONT AYARI
     st.markdown("""
