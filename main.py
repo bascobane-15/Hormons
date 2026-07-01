@@ -785,12 +785,7 @@ elif menu == "🟣 Tiroksin":
         * **Fiziksel:** Soğuğa tahammülsüzlük, halsizlik ve cilt kuruluğu.
         """)
 
-    # 6. ÖĞRENCİLER İÇİN ÖZET
-    st.subheader("🧭 HPT Aksı Akış Şeması")
-   
-    st.markdown("""
-    **Hipotalamus (TRH)** ➡️ **Ön Hipofiz (TSH)** ➡️ **Tiroit Bezi (T4)** ➡️ **Hedef Dokular**
-    """)
+
     
 # ------------------------------------------------
 # PARATHORMON – KALSİTONİN SEKME
