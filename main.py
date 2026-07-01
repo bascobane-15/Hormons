@@ -450,10 +450,10 @@ elif menu == "🟠 Kortizol":
 elif menu == "🔵 İnsülin":
     st.subheader("🍬 İnsülin ve Glukagon Hormonları")
 
-    st.info(
+    st.write("""
           "İnsülin ve glukagon, pankreas tarafından salgılanan ve kandaki glikoz (şeker) "
           "düzeyini dengeleyen birbirine zıt görevli iki önemli hormondur."
-      )
+     """)
       
     st.markdown("""
       ### 📌 İnsülin Hormonu
@@ -468,11 +468,9 @@ elif menu == "🔵 İnsülin":
       - Glikozun hücrelere taşınması  
       - Enerji üretimi  
       - Glikojen depolanması  
-      
-      
+           
       ---
-      
-      ### 📌 Glukagon Hormonu
+      📌 Glukagon Hormonu
       
       **🏥 Salgılandığı yer:** Pankreas (Langerhans adacıkları - Alfa hücreleri)  
       
