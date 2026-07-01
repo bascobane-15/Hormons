@@ -350,7 +350,88 @@ elif menu == "🎯Hormonlar":
         "💡 Hormonlar sinir sistemiyle birlikte çalışarak vücudun iç dengesini (homeostazı) korur. "
          "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
      """)
-    
+     st.divider()
+
+    # 🤖 BioTwin Dijital İkiz Simülasyonu
+
+    st.subheader("🤖 BioTwin Dijital İkiz Simülasyonu")
+
+    st.info(
+        "Günlük yaşamda vücudumuzda gerçekleşen hormonal değişimleri "
+        "BioTwin modeli ile keşfedin."
+    )
+
+
+    senaryo = st.selectbox(
+        "🎯 Bir günlük yaşam senaryosu seçin:",
+        [
+            "🍔 Yemek yedim",
+            "😨 Sınava girdim",
+            "🏃 Egzersiz yaptım",
+            "😴 Uyandım"
+        ]
+    )
+
+
+    if st.button("🚀 BioTwin Analizini Başlat"):
+
+        durum = st.empty()
+
+
+        if senaryo == "🍔 Yemek yedim":
+
+            durum.info("📡 Kan şekeri analiz ediliyor...")
+            time.sleep(1)
+
+            durum.info("🍬 Pankreas insülin salgılıyor...")
+            time.sleep(1)
+
+            durum.info("🧬 Hücreler glikoz almaya başladı...")
+            time.sleep(1)
+
+            durum.success("✅ Homeostaz sağlandı")
+
+
+        elif senaryo == "😨 Sınava girdim":
+
+            durum.info("📡 Stres seviyesi ölçülüyor...")
+            time.sleep(1)
+
+            durum.info("🔺 Böbreküstü bezleri kortizol salgılıyor...")
+            time.sleep(1)
+
+            durum.info("⚡ Vücut enerji hazırlıyor...")
+            time.sleep(1)
+
+            durum.success("✅ Stres yanıtı aktif")
+
+
+        elif senaryo == "🏃 Egzersiz yaptım":
+
+            durum.info("📡 Enerji ihtiyacı hesaplanıyor...")
+            time.sleep(1)
+
+            durum.info("🧬 Glukagon devreye giriyor...")
+            time.sleep(1)
+
+            durum.info("💪 Kaslara enerji gönderiliyor...")
+            time.sleep(1)
+
+            durum.success("✅ Enerji dengesi sağlandı")
+
+
+        elif senaryo == "😴 Uyandım":
+
+            durum.info("🌅 Biyolojik saat analiz ediliyor...")
+            time.sleep(1)
+
+            durum.info("🔺 Kortizol seviyesi yükseliyor...")
+            time.sleep(1)
+
+            durum.info("🧠 Vücut güne hazırlanıyor...")
+            time.sleep(1)
+
+            durum.success("✅ Sistem aktif")  
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
