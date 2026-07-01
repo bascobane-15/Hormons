@@ -327,9 +327,9 @@ elif menu == "🎯Hormonlar":
     "ve vücudumuzun kusursuz iletişim sistemini nasıl yönettiklerini keşfedeceksiniz."
     """)
     col1, col2, col3 = st.columns([1,2,1])
-
+    
     with col2:
-        st.video("https://youtu.be/Tn3c6wgNjB8?si=jXb7csid2WfaH0gT")
+        st.video("endokrinbez.mp4")
 
     st.divider()
     st.subheader("Endokrin Bezler ve Hormonları")
