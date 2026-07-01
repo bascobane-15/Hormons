@@ -342,7 +342,7 @@ elif menu == "🎯Hormonlar":
     col1, col2, col3 = st.columns([1,2,1])
 
     with col2:
-        st.video("https://youtu.be/4RAEucjAfDc?si=VeUdGocgFfPhCHc6")
+        st.video("https://youtu.be/Tn3c6wgNjB8?si=IOsnZpxByqttMYAm")
 
     st.divider()
 
