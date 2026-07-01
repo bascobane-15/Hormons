@@ -625,6 +625,41 @@ elif menu == "🟣 Tiroksin":
 # ------------------------------------------------
 
 elif menu == "🟢 Parathormon–Kalsitonin":
+    st.subheader("🦴 Parathormon ve Kalsitonin")
+
+    st.write("""
+       "Parathormon ve kalsitonin, kandaki kalsiyum düzeyini düzenleyen iki önemli "
+       "hormondur. Birlikte çalışarak kemiklerin güçlenmesine ve sinir-kas sisteminin "
+       "sağlıklı çalışmasına katkı sağlar."
+    """)
+   
+    st.markdown("""
+    ### 📌 Parathormon (PTH)
+   
+    **🏥 Salgılandığı bez:** Paratiroit bezleri
+   
+    **⚡ Temel görevi:**  
+    Kan kalsiyum seviyesi düştüğünde kemiklerden kalsiyum salınımını artırır, böbreklerden kalsiyum geri emilimini destekler ve böylece kan kalsiyum düzeyini yükseltir.
+   
+    ---
+   
+    ### 📌 Kalsitonin
+   
+    **🏥 Salgılandığı bez:** Tiroit bezi (C hücreleri)
+   
+    **⚡ Temel görevi:**  
+    Kan kalsiyum seviyesi yükseldiğinde kalsiyumun kemiklerde depolanmasını destekleyerek kan kalsiyum düzeyinin düşmesine yardımcı olur.
+   
+   ---
+   
+    ### 🧬 Birlikte Nasıl Çalışırlar?
+   
+    - 🟢 **Parathormon:** Kan kalsiyumunu **artırır.**
+    - 🔵 **Kalsitonin:** Kan kalsiyumunu **azaltır.**
+   
+   💡 **Günün Notu:**  
+    Parathormon ve kalsitonin birbirine zıt etki gösteren hormonlardır. Bu sayede kandaki kalsiyum seviyesi belirli sınırlar içinde tutularak kemik, kas ve sinir sisteminin sağlıklı çalışması sağlanır.
+    """)
     st.header("Parathormon – Kalsitonin (Kalsiyum Dengesi)")
 
     st.markdown("""
