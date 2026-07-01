@@ -357,7 +357,7 @@ elif menu == "🎯Hormonlar":
 # KORTİZOL SEKME
 # ------------------------------------------------
 elif menu == "🟠 Kortizol":
-    st.subheader("🧬 Kortizol Hormonu")
+    st.title("🧬 Kortizol Hormonu")
 
     st.write("""
        "Kortizol, böbreküstü bezleri tarafından üretilen ve vücudun stres durumlarına "
@@ -384,7 +384,7 @@ elif menu == "🟠 Kortizol":
    Kortizol seviyeleri sabah saatlerinde doğal olarak daha yüksektir. 
    Bu durum vücudun uyanmasına, enerji sağlamasına ve güne hazırlanmasına yardımcı olur.
    """)
-    st.title("Kortizol: Stres ve Sistemik Etkiler")
+    st.subheader("Kortizol: Stres ve Sistemik Etkiler")
     
     # 1. GİRDİ ALANI
     stress = st.slider("Stres Düzeyi (Psikolojik/Fiziksel)", 0, 100, 50)
