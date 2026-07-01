@@ -59,7 +59,7 @@ st.markdown("""
     .card-text { font-size: 0.85rem; opacity: 0.8; line-height: 1.4; }
     
     /* Sol Alt Açıklama Kutusu (Siyah, Büyük ve Görünür) */
-    .sidebar-footer {
+    .sidebar-footer { 
         font-size: 1.1rem !important;
         color: #000000 !important;
         font-weight: 600 !important;
