@@ -714,16 +714,16 @@ elif menu == "🟣 Tiroksin":
     """)
     col1, col2 = st.columns(2)
 
-with col1:
-    st.success("""
-   🧠 **Salgılandığı Bez**
-   
-       Tiroit Bezi
-       """)
-   
-with col2:
-    st.success("""
-   🎯 **Hedef Organ**
+    with col1:
+       st.success("""
+      🧠 **Salgılandığı Bez**
+      
+          Tiroit Bezi
+          """)
+      
+    with col2:
+       st.success("""
+      🎯 **Hedef Organ**
    
    Vücuttaki hemen hemen tüm hücreler
    """)
