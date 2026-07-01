@@ -346,13 +346,13 @@ elif menu == "🎯Hormonlar":
 
     st.divider()
 
-st.info(
-    "💡 Hormonlar sinir sistemiyle birlikte çalışarak vücudun iç dengesini (homeostazı) korur. "
-    "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
-)
+    st.info(
+        "💡 Hormonlar sinir sistemiyle birlikte çalışarak vücudun iç dengesini (homeostazı) korur. "
+         "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
+    )
 
-st.divider()
-st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
+    st.divider()
+    st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
