@@ -319,11 +319,33 @@ if menu == "Ana Sayfa":
 elif menu == "🎯Hormonlar":
     
     st.title("🎯Hormonların Yolculuğu")
-    st.subheader(
-    "Her hormonun bir görevi, her görevin bir hedefi vardır."
+ 
+    st.write("""
+    "Her hormonun bir görevi, her görevin bir hedefi vardır." 
     "Bu bölümde hormonların nerede üretildiğini, "
     "hangi organları etkilediğini"
     "ve vücudumuzun kusursuz iletişim sistemini nasıl yönettiklerini keşfedeceksiniz."
-)
+    """)
+    col1, col2, col3 = st.columns([1,2,1])
 
+    with col2:
+        st.video("https://youtu.be/Tn3c6wgNjB8?si=jXb7csid2WfaH0gT")
+
+    st.divider()
+    st.subheader("Endokrin Bezler ve Hormonları")
+
+    st.write("""
+    Hormonlar Nasıl Çalışır?  
+    """)
+    col1, col2, col3 = st.columns([1,2,1])
+
+    with col2:
+        st.video("https://youtu.be/4RAEucjAfDc?si=VeUdGocgFfPhCHc6")
+
+    st.divider()
+
+st.info(
+    "💡 Hormonlar sinir sistemiyle birlikte çalışarak vücudun iç dengesini (homeostazı) korur. "
+    "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
+)
 
