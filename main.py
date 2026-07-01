@@ -425,7 +425,7 @@ elif menu == "🎯Hormonlar":
             "⚡ Vücut enerji hazırlıyor..."
             """)
             time.sleep(3)
-
+            durum.markdown("""
             <div style="
                 background-color:#d9f2ff;
                 padding:15px;
