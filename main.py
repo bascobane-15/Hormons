@@ -366,7 +366,7 @@ elif menu == "🟠 Kortizol":
        "yanıtını etkiler."   
    """)
    
-   st.markdown("""
+    st.markdown("""
    ### 📌 Temel Bilgiler
    
    **🏥 Salgılandığı bez:** Böbreküstü bezleri  
