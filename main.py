@@ -9,7 +9,7 @@ import random
 from streamlit_folium import st_folium
 import streamlit.components.v1 as components
 # Sayfa Ayarları
-st.set_page_config(page_title="Hormonlar", layout="wide")
+st.set_page_config(page_title="BioTwin-Systems", layout="wide")
 
 # -------------------------
 # CSS 
@@ -59,7 +59,7 @@ st.markdown("""
     .card-text { font-size: 0.85rem; opacity: 0.8; line-height: 1.4; }
     
     /* Sol Alt Açıklama Kutusu (Siyah, Büyük ve Görünür) */
-    .sidebar-footer { 
+    .sidebar-footer {
         font-size: 1.1rem !important;
         color: #000000 !important;
         font-weight: 600 !important;
@@ -137,6 +137,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
 # -------------------------
 # SIDEBAR İÇERİĞİ (SOL TARAF)
 # -------------------------
