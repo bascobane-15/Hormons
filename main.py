@@ -704,19 +704,7 @@ elif menu == "🟣 Tiroksin":
             Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir.
             Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
      """)
-    st.markdown("""
-    ### 📌 Temel Bilgiler
-   
-    **Salgılandığı bez:** Troit bezi  
-   
-    **⚡ Temel görevi:**  
-    Metabolizma hızını artırır.
-    Hücrelerin enerji üretimini destekler.
-    Vücut sıcaklığının korunmasına katkı sağlar.
-   
-    **🎯 Hedef Organı:**  
-    Vücuttaki hemen hemen tüm hücreler 
-      
+    
     st.write("""
            Tiroksin metabolizma hızını düzenleyerek hücrelerin enerji üretimini kontrol eder.
            Vücudun büyümesi, gelişmesi, kalp atış hızı, vücut sıcaklığı ve sinir sistemi üzerinde önemli etkileri vardır.
