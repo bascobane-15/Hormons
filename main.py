@@ -357,6 +357,33 @@ elif menu == "🎯Hormonlar":
 # KORTİZOL SEKME
 # ------------------------------------------------
 elif menu == "🟠 Kortizol":
+    st.subheader("🧬 Kortizol Hormonu")
+
+   st.info(
+       "Kortizol, böbreküstü bezleri tarafından üretilen ve vücudun stres durumlarına "
+       "uyum sağlamasına yardımcı olan önemli bir hormondur. 'Stres hormonu' olarak da bilinir. "
+       "Enerji dengesini düzenler, kan şekerinin kontrolüne katkı sağlar ve bağışıklık sistemi "
+       "yanıtını etkiler."
+   )
+   
+   st.markdown("""
+   ### 📌 Temel Bilgiler
+   
+   **🏥 Salgılandığı bez:** Böbreküstü bezleri  
+   
+   **⚡ Temel görevi:**  
+   Stres anlarında vücudu harekete geçirmek, enerji kullanımını düzenlemek 
+   ve iç dengenin (homeostaz) korunmasına yardımcı olmak.
+   
+   **🧠 Etkilediği sistemler:**  
+   - Metabolizma  
+   - Bağışıklık sistemi  
+   - Stres yanıtı  
+   
+   💡 **Günün Notu:**  
+   Kortizol seviyeleri sabah saatlerinde doğal olarak daha yüksektir. 
+   Bu durum vücudun uyanmasına, enerji sağlamasına ve güne hazırlanmasına yardımcı olur.
+   """)
     st.title("Kortizol: Stres ve Sistemik Etkiler")
     
     # 1. GİRDİ ALANI
