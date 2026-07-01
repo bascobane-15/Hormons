@@ -727,7 +727,7 @@ elif menu == "🟢 Parathormon–Kalsitonin":
         """)
     else:
         st.write("""
-        ℹ️ Kalsiyum dengede → İskelet sistemi homeostazı sağlanıyor")
+        ℹ️ Kalsiyum dengede → İskelet sisteminde homeostazi sağlanıyor"
         """)
     # 5. AKADEMİK BİLGİ ALANI 
     st.subheader("📚 Klinik Bilgi Paneli")
