@@ -710,17 +710,9 @@ elif menu == "🟣 Tiroksin":
    **🏥 Salgılandığı bez:** Troit bezi  
    
    **⚡ Temel görevi:**  
-   ✅ Metabolizma hızını artırır.
-
-   ✅ Hücrelerin enerji üretimini destekler.
-
-   ✅ Vücut sıcaklığının korunmasına katkı sağlar.
-
-   ✅ Kalp atış hızını düzenler.
-
-   ✅ Çocuklarda büyüme ve beyin gelişimini destekler.
-
-   ✅ Protein sentezini ve hücre yenilenmesini hızlandırır.
+   Metabolizma hızını artırır.
+   Hücrelerin enerji üretimini destekler.
+   Vücut sıcaklığının korunmasına katkı sağlar.
    
    **🎯 Hedef Organı:**  
    - Vücuttaki hemen hemen tüm hücreler 
