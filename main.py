@@ -6,6 +6,8 @@ import base64
 import folium
 import time
 import random
+import matplotlib.pyplot as plt
+import numpy as np
 from streamlit_folium import st_folium
 import streamlit.components.v1 as components
 # Sayfa Ayarları
@@ -501,6 +503,56 @@ elif menu == "🎯Hormonlar":
             </div>
             """, unsafe_allow_html=True) 
     st.divider()
+
+# 1. Karanlık ve fütüristik siberpunk tema ayarları
+plt.style.use('dark_background')
+fig, ax = plt.subplots(figsize=(10, 8), facecolor='#030812')
+ax.set_facecolor('#030812')
+
+# 2. Hologram İnsan Omurgası / Merkez Aksı (Dikey parlayan çizgi)
+y_spine = np.linspace(0, 10, 100)
+x_spine = np.zeros_like(y_spine)
+ax.plot(x_spine, y_spine, color='#40e0d0', linewidth=4, alpha=0.8, shadow=True, label="MERKEZ_AKSI")
+
+# 3. Mavi-Turkuaz Işıklı Hormon Bağlantıları (Dalga fonksiyonları)
+y_nodes = np.linspace(1, 9, 500)
+colors = ['#00bfff', '#40e0d0', '#00ffff', '#1e90ff']
+
+for i in range(4):
+    # Sinüs dalgalarıyla hormon bağlarının vücuda yayılma simülasyonu
+    x_nodes = np.sin(y_nodes * 2 + i) * (0.5 + i * 0.3)
+    ax.plot(x_nodes, y_nodes, color=colors[i], alpha=0.4 + (i * 0.1), linewidth=1.5, linestyle='--')
+    ax.plot(-x_nodes, y_nodes, color=colors[i], alpha=0.4 + (i * 0.1), linewidth=1.5, linestyle='--')
+
+# 4. Hormon Bezlerini Temsil Eden Parlayan Dijital Noktalar (Düğümler)
+# [X koordinatı, Y koordinatı (Yukarıdan aşağıya sıralı)]
+bez_y = [9, 8.2, 7.3, 6, 4.5, 3.2, 1.5]
+bez_isimleri = ['EPIFIZ', 'TIROID', 'TIMUS', 'B_USTU', 'PANKREAS', 'TESTIS/YUMURTALIK']
+
+for y, isim in zip(bez_y, bez_isimleri):
+    # Parlama efekti için üst üste farklı opaklıkta noktalar koyuyoruz
+    ax.scatter(0, y, color='#00ffff', s=300, alpha=0.2)
+    ax.scatter(0, y, color='#40e0d0', s=100, alpha=0.6)
+    ax.scatter(0, y, color='#ffffff', s=20, alpha=1)
+    
+    # Dijital Sağlık Ekranı Yazıları (HUD verileri)
+    ax.text(0.3, y, f">> {isim}_FLOW: STABIL", color='#40e0d0', fontsize=9, fontweight='bold', family='monospace')
+
+# 5. Ekran Süslemeleri ve Siberpunk Arayüz Çizgileri
+ax.text(-2.2, 9.5, "SYS_STATUS: ACTIVE [LOG_09]", color='#00bfff', fontsize=12, family='monospace', weight='bold')
+ax.text(1.2, 0.5, "GRID_MODE: HOLOGRAM_V2", color='#1e90ff', fontsize=10, family='monospace')
+ax.axhline(y=9.8, color='#40e0d0', alpha=0.2, linestyle='-')
+ax.axhline(y=0.2, color='#40e0d0', alpha=0.2, linestyle='-')
+
+# Grafiği temizleme (Eksen çizgilerini gizleme)
+ax.set_xlim(-2.5, 2.5)
+ax.set_ylim(0, 10)
+ax.axis('off')
+
+# Görseli kaydetme ve ekranda gösterme
+plt.title("ENDOKRIN_SISTEM_DIJITAL_HUD", color='#40e0d0', fontsize=14, pad=20, family='monospace')
+plt.savefig("hologram_hormon_ekrani.png", dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor())
+plt.show()
     
 # ------------------------------------------------
 # KORTİZOL SEKME
