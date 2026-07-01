@@ -505,18 +505,18 @@ elif menu == "🎯Hormonlar":
     st.divider()
 
     # 1. Karanlık ve fütüristik siberpunk tema ayarları
-      plt.style.use('dark_background')
-      fig, ax = plt.subplots(figsize=(10, 8), facecolor='#030812')
-      ax.set_facecolor('#030812')
+    plt.style.use('dark_background')
+    fig, ax = plt.subplots(figsize=(10, 8), facecolor='#030812')
+    ax.set_facecolor('#030812')
       
     # 2. Hologram İnsan Omurgası / Merkez Aksı (Dikey parlayan çizgi)
-      y_spine = np.linspace(0, 10, 100)
-      x_spine = np.zeros_like(y_spine)
-      ax.plot(x_spine, y_spine, color='#40e0d0', linewidth=4, alpha=0.8, shadow=True, label="MERKEZ_AKSI")
+    y_spine = np.linspace(0, 10, 100)
+    x_spine = np.zeros_like(y_spine)
+    ax.plot(x_spine, y_spine, color='#40e0d0', linewidth=4, alpha=0.8, shadow=True, label="MERKEZ_AKSI")
       
     # 3. Mavi-Turkuaz Işıklı Hormon Bağlantıları (Dalga fonksiyonları)
-      y_nodes = np.linspace(1, 9, 500)
-      colors = ['#00bfff', '#40e0d0', '#00ffff', '#1e90ff']
+    y_nodes = np.linspace(1, 9, 500)
+    colors = ['#00bfff', '#40e0d0', '#00ffff', '#1e90ff']
       
     for i in range(4):
           # Sinüs dalgalarıyla hormon bağlarının vücuda yayılma simülasyonu
