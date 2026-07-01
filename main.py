@@ -729,8 +729,10 @@ elif menu == "🟢 Parathormon–Kalsitonin":
         st.write("""
         ℹ️ Kalsiyum dengede → İskelet sistemi homeostazı sağlanıyor")
         """)
-    st.warning("""
-   ### 🩺 Klinik Bilgi Paneli
+    # 5. AKADEMİK BİLGİ ALANI 
+    st.subheader("📚 Klinik Bilgi Paneli")
+    
+    st.write("""
    
    🔹 **Parathormonun yetersiz salgılanması (Hipoparatiroidizm):**
    Kandaki kalsiyum düzeyi düşer. Kas krampları, kasılmalar, karıncalanma ve nöbetler görülebilir.
