@@ -505,46 +505,7 @@ elif menu == "🎯Hormonlar":
             """, unsafe_allow_html=True) 
     st.divider()
 
-    # Web sayfasının en üstüne bir başlık yazalım
-    st.title("Fütüristik Endokrin Sistem Ekranı")
-   
-    # Arka planı koyu siberpunk teması yapıyoruz
-    plt.style.use('dark_background')
-    fig, ax = plt.subplots(figsize=(10, 8), facecolor='#030812')
-    ax.set_facecolor('#030812')
-   
-    # Hologram omurgası (Merkezdeki düz çizgi)
-    y_spine = np.linspace(0, 10, 100)
-    x_spine = np.zeros_like(y_spine)
-    line, = ax.plot(x_spine, y_spine, color='#40e0d0', linewidth=4, alpha=0.8)
-    line.set_path_effects([path_effects.SimpleLineShadow(offset=(0, 0), shadow_color='#40e0d0', alpha=0.4, linewidth=10),
-                          path_effects.Normal()])
-   
-    # Mavi ve turkuaz dalgalı hormon bağları
-    y_nodes = np.linspace(1, 9, 500)
-    colors = ['#00bfff', '#40e0d0', '#00ffff', '#1e90ff']
-    for i in range(4):
-       x_nodes = np.sin(y_nodes * 2 + i) * (0.5 + i * 0.3)
-       ax.plot(x_nodes, y_nodes, color=colors[i], alpha=0.4, linewidth=1.5, linestyle='--')
-       ax.plot(-x_nodes, y_nodes, color=colors[i], alpha=0.4, linewidth=1.5, linestyle='--')
-   
-    # Bezleri temsil eden parlayan noktalar ve yazılar
-    bez_y = [9, 8.2, 7.3, 6, 4.5, 3.2, 1.5]
-    bez_isimleri = ['EPIFIZ', 'TIROID', 'TIMUS', 'B_USTU', 'PANKREAS', 'TESTIS/YUMURTALIK']
-    for y, isim in zip(bez_y, bez_isimleri):
-       ax.scatter(0, y, color='#00ffff', s=300, alpha=0.2)
-       ax.scatter(0, y, color='#40e0d0', s=100, alpha=0.6)
-       ax.scatter(0, y, color='#ffffff', s=20, alpha=1)
-       ax.text(0.3, y, f">> {isim}_FLOW: STABIL", color='#40e0d0', fontsize=9, fontweight='bold', family='monospace')
-   
-    # Ekran süsleri
-    ax.text(-2.2, 9.5, "SYS_STATUS: ACTIVE", color='#00bfff', fontsize=12, family='monospace', weight='bold')
-    ax.axis('off')
-   
-    # 2. İŞTE SİHİRLİ DOKUNUŞ BURASI: 
-    # Eski plt.show() yerine st.pyplot(fig) yazdık. 
-    # Bu komut "Çizdiğin bu resmi web sitesi ekranına fırlat" demektir.
-    st.pyplot(fig)
+
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
