@@ -772,7 +772,7 @@ elif menu == "🟣 Tiroksin":
         * **Zihinsel:** Unutkanlık, yavaş düşünme ve depresyon eğilimi.
         * **Fiziksel:** Soğuğa tahammülsüzlük, halsizlik ve cilt kuruluğu.
         """)
-   st.divider()
+   
 # ------------------------------------------------
 # PARATHORMON – KALSİTONİN SEKME
 # ------------------------------------------------
