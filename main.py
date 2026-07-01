@@ -235,7 +235,7 @@ if menu == "Ana Sayfa":
             <div class="explore-card">
                 <div class="card-icon">🎯</div>
                 <div class="card-title">Hormonlar</div>
-                <p style="font-size: 0.9rem;">Hormonlar Nasıl Çalışır keşfet.</p>
+                <p style="font-size: 0.9rem;">Hormonlar Nasıl Çalışır? Keşfet.</p>
             </div>
         """, unsafe_allow_html=True)
     with col2:
