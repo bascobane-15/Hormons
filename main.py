@@ -434,7 +434,7 @@ elif menu == "🎯Hormonlar":
                 color:#003049;
                 font-size:18px;
                 font-weight:bold;">
-                🧬 Homeostazi sağlandı — ✅ Stres yanıtı aktif
+                🧬 Homeostazi sağlandı — Stres yanıtı aktif
             
             </div>
             """, unsafe_allow_html=True)"
@@ -466,7 +466,7 @@ elif menu == "🎯Hormonlar":
                 color:#003049;
                 font-size:18px;
                 font-weight:bold;">
-                🧬 Homeostazi sağlandı — ✅ Enerji dengesi kuruldu
+                🧬 Homeostazi sağlandı — Enerji dengesi kuruldu
             
             </div>
             """, unsafe_allow_html=True)"
