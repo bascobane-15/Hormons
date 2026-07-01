@@ -226,7 +226,7 @@ if menu == "Ana Sayfa":
     """, unsafe_allow_html=True)
 
     # 3. İNTERAKTİF KEŞİF KARTLARI
-    st.markdown('<h3 class="discovery-title">Keşfe Hangi Hormonla Başlayacaksın?</h3>', unsafe_allow_html=True)
+    st.markdown('<h3 class="discovery-title">Keşfe Nereden Başlayacaksın?</h3>', unsafe_allow_html=True)
     
     col1, col2, col3, col4, col5 = st.columns(5)
     
