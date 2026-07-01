@@ -526,8 +526,8 @@ elif menu == "🎯Hormonlar":
       
     # 4. Hormon Bezlerini Temsil Eden Parlayan Dijital Noktalar (Düğümler)
     # [X koordinatı, Y koordinatı (Yukarıdan aşağıya sıralı)]
-      bez_y = [9, 8.2, 7.3, 6, 4.5, 3.2, 1.5]
-      bez_isimleri = ['EPIFIZ', 'TIROID', 'TIMUS', 'B_USTU', 'PANKREAS', 'TESTIS/YUMURTALIK']
+    bez_y = [9, 8.2, 7.3, 6, 4.5, 3.2, 1.5]
+    bez_isimleri = ['EPIFIZ', 'TIROID', 'TIMUS', 'B_USTU', 'PANKREAS', 'TESTIS/YUMURTALIK']
       
     for y, isim in zip(bez_y, bez_isimleri):
           # Parlama efekti için üst üste farklı opaklıkta noktalar koyuyoruz
