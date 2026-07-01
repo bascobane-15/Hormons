@@ -154,7 +154,7 @@ with st.sidebar:
     
     menu = st.selectbox(
         "📍 Sayfanızı Seçin",
-         ["Ana Sayfa", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
+         ["Ana Sayfa", "🎯Hormonlar","🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
     )
 
     st.markdown("---")
@@ -211,15 +211,15 @@ if menu == "Ana Sayfa":
     <div style="text-align:center; padding:60px 0;">
     
     <div class="hero-title">
-    🧠 Endokrin Sistem Dijital İkizi
+    🧠BioTwin-Systems
     </div>
 
     <div class="hero-subtitle">
-    Hormon sentezi, geri bildirim mekanizmaları ile hormon azlığı veya fazlalığının yol açtığı klinik tabloları modelleyen dinamik simülasyon platformu.
+    Endokrin Sistem Dijital İkizi
     </div>
 
     <div class="hero-text">
-    Her hormon için ayrı senaryo üzerinden neden–sonuç ilişkileri gözlemlenir.
+    Hormon sentezi, geri bildirim mekanizmaları ile hormon azlığı veya fazlalığının yol açtığı klinik tabloları modelleyen dinamik simülasyon platformu..
     </div>
 
     </div>
@@ -233,13 +233,20 @@ if menu == "Ana Sayfa":
     with col1:
         st.markdown("""
             <div class="explore-card">
+                <div class="card-icon">🎯</div>
+                <div class="card-title">Hormonlar</div>
+                <p style="font-size: 0.9rem;">Hormonlar Nasıl Çalışır keşfet.</p>
+            </div>
+        """, unsafe_allow_html=True)
+    with col2:
+        st.markdown("""
+            <div class="explore-card">
                 <div class="card-icon">🟠</div>
                 <div class="card-title">Kortizol</div>
                 <p style="font-size: 0.9rem;">Stres anlarında vücudunu yöneten görünmez kahramanı keşfet.</p>
             </div>
-        """, unsafe_allow_html=True)
-        
-    with col2:
+        """, unsafe_allow_html=True)    
+    with col3:
         st.markdown("""
             <div class="explore-card">
                 <div class="card-icon">🔵</div>
@@ -248,7 +255,7 @@ if menu == "Ana Sayfa":
             </div>
         """, unsafe_allow_html=True)
         
-    with col3:
+    with col4:
         st.markdown("""
             <div class="explore-card">
                 <div class="card-icon">🟣</div>
@@ -259,7 +266,7 @@ if menu == "Ana Sayfa":
         
           
          
-    with col4:
+    with col5:
         st.markdown("""
             <div class="explore-card">
                 <div class="card-icon">🟢</div>
