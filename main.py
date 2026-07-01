@@ -699,9 +699,12 @@ elif menu == "🔵 İnsülin":
 # TİROKSİN SEKME
 # ------------------------------------------------
 elif menu == "🟣 Tiroksin":
-    st.subheader("🦋 Tiroksin Hormonu")
-
-    st.header("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
+    st.header("🦋 Tiroksin Hormonu")
+    st.write("""
+           "Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir. "
+           "Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
+     """)
+    st.subheader("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
     
     # 1. GİRDİ ALANI: Tiroit Bezi Aktivitesi
     tiroit_aktivite = st.slider("Tiroit Bezi Çalışma Kapasitesi (%)", 0, 200, 100)
