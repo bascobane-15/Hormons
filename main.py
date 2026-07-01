@@ -326,6 +326,7 @@ elif menu == "🎯Hormonlar":
     "hangi organları etkilediğini"
     "ve vücudumuzun kusursuz iletişim sistemini nasıl yönettiklerini keşfedeceksiniz."
     """)
+   
     col1, col2, col3 = st.columns([1,2,1])
     
     with col2:
