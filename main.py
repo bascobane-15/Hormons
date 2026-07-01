@@ -388,7 +388,7 @@ elif menu == "🎯Hormonlar":
             durum.write("""
             "🍬 Pankreas insülin salgılıyor..."
             """)
-            time.sleep31)
+            time.sleep(3)
 
             durum.write("""
             "🧬 Hücreler glikoz almaya başladı..."
