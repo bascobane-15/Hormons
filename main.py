@@ -707,7 +707,7 @@ elif menu == "🟣 Tiroksin":
     """)
     st.header("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
     
-    # 1. GİRDİ ALANI: Tiroit Bezi Aktivitesi    
+    # 1. GİRDİ ALANI: Tiroit Bezi Aktivitesi
     tiroit_aktivite = st.slider("Tiroit Bezi Çalışma Kapasitesi (%)", 0, 200, 100)
     
     # 2. FEEDBACK MANTIĞI (Dijital İkiz Hesaplaması)
@@ -745,9 +745,8 @@ elif menu == "🟣 Tiroksin":
     # 5. AKADEMİK BİLGİ ALANI (Ders Materyali)
     st.subheader("📚 Klinik Bilgi Paneli: Tiroit Fizyopatolojisi")
     
-    st.write("""
-           "💡 **Negatif Feedback Mekanizması:** Kanda Tiroksin (T4) yükseldiğinde, Hipofiz bezi bunu algılar ve tiroit bezini daha fazla uyarmamak için TSH salgısını azaltır. Bu bir öz-denetim sistemidir.
-    """)
+    st.info("💡 **Negatif Feedback Mekanizması:** Kanda Tiroksin (T4) yükseldiğinde, Hipofiz bezi bunu algılar ve tiroit bezini daha fazla uyarmamak için TSH salgısını azaltır. Bu bir öz-denetim sistemidir.")
+
     col_symp1, col_symp2 = st.columns(2)
 
     with col_symp1:
