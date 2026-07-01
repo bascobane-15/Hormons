@@ -420,13 +420,19 @@ elif menu == "🎯Hormonlar":
 
         elif senaryo == "🏃 Egzersiz yaptım":
 
-            durum.info("📡 Enerji ihtiyacı hesaplanıyor...")
+            durum.write("""
+            "📡 Enerji ihtiyacı hesaplanıyor..."
+            """)
             time.sleep(1)
 
-            durum.info("🧬 Glukagon devreye giriyor...")
+            durum.write("""
+            "🧬 Glukagon devreye giriyor..."
+            """)
             time.sleep(1)
 
-            durum.info("💪 Kaslara enerji gönderiliyor...")
+            durum.write("""
+            "💪 Kaslara enerji gönderiliyor..."
+            """)
             time.sleep(1)
 
             durum.success("✅ Enerji dengesi sağlandı")
@@ -434,13 +440,19 @@ elif menu == "🎯Hormonlar":
 
         elif senaryo == "😴 Uyandım":
 
-            durum.info("🌅 Biyolojik saat analiz ediliyor...")
+            durum.write("""
+            "🌅 Biyolojik saat analiz ediliyor..."
+            """)
             time.sleep(1)
 
-            durum.info("🔺 Kortizol seviyesi yükseliyor...")
+            durum.write("""
+            "🔺 Kortizol seviyesi yükseliyor..."
+            """)
             time.sleep(1)
 
-            durum.info("🧠 Vücut güne hazırlanıyor...")
+            durum.write("""
+            "🧠 Vücut güne hazırlanıyor..."
+            """)
             time.sleep(1)
 
             durum.success("✅ Sistem aktif")  
