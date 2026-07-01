@@ -320,8 +320,9 @@ elif menu == "🎯Hormonlar":
     
     st.title("🎯Hormonların Yolculuğu")
     st.subheader(
-    "Her hormonun bir görevi, her görevin bir hedefi vardır. "
-    "Bu bölümde hormonların nerede üretildiğini, hangi organları etkilediğini "
+    "Her hormonun bir görevi, her görevin bir hedefi vardır."
+    "Bu bölümde hormonların nerede üretildiğini, "
+    "hangi organları etkilediğini"
     "ve vücudumuzun kusursuz iletişim sistemini nasıl yönettiklerini keşfedeceksiniz."
 )
 
