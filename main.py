@@ -211,7 +211,7 @@ if menu == "Ana Sayfa":
     <div style="text-align:center; padding:60px 0;">
     
     <div class="hero-title">
-    🩻BioTwin-Systems
+    👤BioTwin-Systems
     </div>
 
     <div class="hero-subtitle">
