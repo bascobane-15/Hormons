@@ -699,12 +699,7 @@ elif menu == "🔵 İnsülin":
 # TİROKSİN SEKME
 # ------------------------------------------------
 elif menu == "🟣 Tiroksin":
-    st.title("🦋 Tiroksin (T4) Hormonu")
 
-    st.Write("""
-    "💡 Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir. "
-    "Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
-    """)
     st.header("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
     
     # 1. GİRDİ ALANI: Tiroit Bezi Aktivitesi
