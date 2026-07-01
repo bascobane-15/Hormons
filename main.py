@@ -380,13 +380,19 @@ elif menu == "🎯Hormonlar":
 
         if senaryo == "🍔 Yemek yedim":
 
-            durum.info("📡 Kan şekeri analiz ediliyor...")
+            durum.write("""
+            "📡 Kan şekeri analiz ediliyor..."
+            """)
             time.sleep(1)
 
-            durum.info("🍬 Pankreas insülin salgılıyor...")
+            durum.write("""
+            "🍬 Pankreas insülin salgılıyor..."
+            """)
             time.sleep(1)
 
-            durum.info("🧬 Hücreler glikoz almaya başladı...")
+            durum.write("""
+            "🧬 Hücreler glikoz almaya başladı..."
+            """)
             time.sleep(1)
 
             durum.success("✅ Homeostaz sağlandı")
@@ -394,13 +400,19 @@ elif menu == "🎯Hormonlar":
 
         elif senaryo == "😨 Sınava girdim":
 
-            durum.info("📡 Stres seviyesi ölçülüyor...")
+            durum.write("""
+            "📡 Stres seviyesi ölçülüyor..."
+            """)
             time.sleep(1)
 
-            durum.info("🔺 Böbreküstü bezleri kortizol salgılıyor...")
+            durum.write("""
+            "🔺 Böbreküstü bezleri kortizol salgılıyor..."
+            """)
             time.sleep(1)
 
-            durum.info("⚡ Vücut enerji hazırlıyor...")
+            durum.write("""
+            "⚡ Vücut enerji hazırlıyor..."
+            """)
             time.sleep(1)
 
             durum.success("✅ Stres yanıtı aktif")
