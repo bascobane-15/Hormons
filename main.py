@@ -502,16 +502,7 @@ elif menu == "🎯Hormonlar":
                 font-weight:bold;">
                 🧬 Homeostazi sağlandı — Vücut dengesi korundu
             </div>
-            """, unsafe_allow_html=True) 
-    st.divider()
-
-    col1, col2, col3 = st.columns([1,2,1])
-
-    with col2:
-       st.video("humanbady.mp4")
-    st.divider()
-    
-
+            """, unsafe_allow_html=True)     
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
