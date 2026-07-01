@@ -350,7 +350,7 @@ elif menu == "🎯Hormonlar":
         "💡 Hormonlar sinir sistemiyle birlikte çalışarak vücudun iç dengesini (homeostazı) korur. "
          "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
      """)
-     st.divider()
+    st.divider()
 
     # 🤖 BioTwin Dijital İkiz Simülasyonu
 
