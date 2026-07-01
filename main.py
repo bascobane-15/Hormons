@@ -383,17 +383,17 @@ elif menu == "🎯Hormonlar":
             durum.write("""
             "📡 Kan şekeri analiz ediliyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "🍬 Pankreas insülin salgılıyor..."
             """)
-            time.sleep(1)
+            time.sleep31)
 
             durum.write("""
             "🧬 Hücreler glikoz almaya başladı..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.success("✅ Homeostaz sağlandı")
 
