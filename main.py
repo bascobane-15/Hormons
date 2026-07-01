@@ -280,7 +280,22 @@ if menu == "Ana Sayfa:Hormonlar":
         "kelime": "Endokrin sistem",
         "dil": "Türkçe",
         "anlam": "Hormonları üreten ve düzenleyen sistemdir."
-    }
+    },
+    {
+        "kelime": "Hedef Organ",
+        "dil": "Türkçe",
+        "anlam": "Bir hormonun etkisini gösterdiği, üzerinde özel hormon alıcıları bulunan organ veya hücrelerdir."
+    },
+    {
+        "kelime": "Homeostazi",
+        "dil": "Türkçe",
+        "anlam": "Vücudun iç dengesini (kan şekeri, sıcaklık, su dengesi gibi) koruma durumudur."
+    },
+    {
+        "kelime": "Geri Bildirim",
+        "dil": "Türkçe",
+        "anlam": "Feedback, Hormon üretiminin vücudun ihtiyacına göre artırılıp azaltılmasını sağlayan kontrol mekanizmasıdır"
+    },
 ]
     
     gunun_kelimesi = random.choice(kelimeler)
