@@ -356,10 +356,10 @@ elif menu == "🎯Hormonlar":
 
     st.subheader("🤖 BioTwin Dijital İkiz Simülasyonu")
 
-    st.info(
+    st.write("""
         "Günlük yaşamda vücudumuzda gerçekleşen hormonal değişimleri "
         "BioTwin modeli ile keşfedin."
-    )
+     """)
 
 
     senaryo = st.selectbox(
