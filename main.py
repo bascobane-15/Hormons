@@ -500,6 +500,252 @@ elif menu == "🎯Hormonlar":
                 🧬 Homeostazi sağlandı — Vücut dengesi korundu
             </div>
             """, unsafe_allow_html=True) 
+    st.divider()
+
+    st.subheader("🤖 BioTwin Canlı Vücut Analizi")
+
+    st.info(
+        "Seçilen yaşam senaryosuna göre dijital ikiz modeli "
+        "hormonal değişimleri simüle eder."
+    )
+
+
+    senaryo = st.selectbox(
+        "🎯 Senaryo seç:",
+        [
+            "🍔 Yemek yedim",
+            "😨 Sınava girdim",
+            "🏃 Egzersiz yaptım",
+            "😴 Uyandım"
+        ]
+    )
+
+
+    # Başlangıç paneli
+
+    st.markdown("### 🧬 BioTwin Kontrol Paneli")
+
+
+    col1, col2, col3 = st.columns(3)
+
+
+    seker = col1.empty()
+    stres = col2.empty()
+    homeo = col3.empty()
+
+
+
+    def panel_guncelle(
+        kan_sekeri,
+        stres_seviyesi,
+        homeostaz
+    ):
+
+        seker.metric(
+            "🍬 Kan Şekeri",
+            kan_sekeri
+        )
+
+        stres.metric(
+            "😨 Stres",
+            stres_seviyesi
+        )
+
+        homeo.metric(
+            "🧬 Homeostaz",
+            homeostaz
+        )
+
+
+
+    panel_guncelle(
+        "Normal",
+        "Düşük",
+        "Dengeli ✅"
+    )
+
+
+
+    if st.button("🚀 Dijital İkizi Başlat"):
+
+
+        durum = st.empty()
+
+
+
+        if senaryo == "🍔 Yemek yedim":
+
+
+            durum.info("📡 Kan şekeri yükseliyor...")
+            
+            panel_guncelle(
+                "↑ Yüksek",
+                "Normal",
+                "Kontrol ediliyor..."
+            )
+
+            time.sleep(2)
+
+
+            durum.info("🍬 İnsülin salgılanıyor...")
+
+
+            panel_guncelle(
+                "Normalleşiyor",
+                "Normal",
+                "Düzenleniyor..."
+            )
+
+            time.sleep(2)
+
+
+            durum.success(
+                "✅ İnsülin sayesinde homeostaz sağlandı"
+            )
+
+
+            panel_guncelle(
+                "Normal ✅",
+                "Düşük",
+                "Sağlandı ✅"
+            )
+
+
+
+        elif senaryo == "😨 Sınava girdim":
+
+
+            durum.info("🧠 Stres algılandı...")
+
+
+            panel_guncelle(
+                "Normal",
+                "↑ Artıyor",
+                "Kontrol ediliyor..."
+            )
+
+
+            time.sleep(2)
+
+
+            durum.info(
+                "🔺 Kortizol salgılanıyor..."
+            )
+
+
+            panel_guncelle(
+                "↑ Enerji hazır",
+                "Yüksek",
+                "Aktif"
+            )
+
+
+            time.sleep(2)
+
+
+            durum.success(
+                "✅ Vücut stres yanıtını yönetti"
+            )
+
+
+            panel_guncelle(
+                "Normal",
+                "Normal",
+                "Dengeli ✅"
+            )
+
+
+
+        elif senaryo == "🏃 Egzersiz yaptım":
+
+
+            durum.info(
+                "⚡ Enerji ihtiyacı arttı..."
+            )
+
+
+            panel_guncelle(
+                "Düşüyor",
+                "Normal",
+                "Ayarlanıyor"
+            )
+
+
+            time.sleep(2)
+
+
+            durum.info(
+                "🧬 Glukagon aktifleşti..."
+            )
+
+
+            panel_guncelle(
+                "Dengeleniyor",
+                "Normal",
+                "Kontrol altında"
+            )
+
+
+            time.sleep(2)
+
+
+            durum.success(
+                "✅ Enerji dengesi sağlandı"
+            )
+
+
+            panel_guncelle(
+                "Normal",
+                "Normal",
+                "Sağlandı ✅"
+            )
+
+
+
+        elif senaryo == "😴 Uyandım":
+
+
+            durum.info(
+                "🌅 Biyolojik saat çalışıyor..."
+            )
+
+
+            panel_guncelle(
+                "Normal",
+                "Düşük",
+                "Başlatılıyor"
+            )
+
+
+            time.sleep(2)
+
+
+            durum.info(
+                "🔺 Kortizol ritmi aktif"
+            )
+
+
+            panel_guncelle(
+                "Enerji artıyor",
+                "Normal",
+                "Aktif"
+            )
+
+
+            time.sleep(2)
+
+
+            durum.success(
+                "✅ Vücut güne hazır"
+            )
+
+
+            panel_guncelle(
+                "Normal",
+                "Normal",
+                "Dengeli ✅"
+            )
+
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
