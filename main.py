@@ -699,6 +699,7 @@ elif menu == "🔵 İnsülin":
 # TİROKSİN SEKME
 # ------------------------------------------------
 elif menu == "🟣 Tiroksin":
+    st.subheader("🦋 Tiroksin Hormonu")
 
     st.header("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
     
