@@ -359,7 +359,7 @@ elif menu == "🎯Hormonlar":
 elif menu == "🟠 Kortizol":
     st.subheader("🧬 Kortizol Hormonu")
 
-   st.write("""
+    st.write("""
        "Kortizol, böbreküstü bezleri tarafından üretilen ve vücudun stres durumlarına "
        "uyum sağlamasına yardımcı olan önemli bir hormondur. 'Stres hormonu' olarak da bilinir. "
        "Enerji dengesini düzenler, kan şekerinin kontrolüne katkı sağlar ve bağışıklık sistemi "
