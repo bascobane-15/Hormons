@@ -350,7 +350,96 @@ elif menu == "🎯Hormonlar":
         "💡 Hormonlar sinir sistemiyle birlikte çalışarak vücudun iç dengesini (homeostazı) korur. "
          "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
      """)
+    -----------------
 
+    st.subheader("🤖 BioTwin Dijital İkiz Simülasyonu")
+
+    st.info(
+    "Günlük yaşamda karşılaştığınız durumlarda hangi hormonların devreye "
+    "girdiğini keşfedin. Bir senaryo seçin ve BioTwin'in analizini izleyin."
+    )
+
+   senaryo = st.selectbox(
+       "🎯 Bir günlük yaşam senaryosu seçin:",
+       (
+           "🍔 Yemek yedim",
+           "😨 Sınava girdim",
+           "🏃 Egzersiz yaptım",
+           "😴 Uyandım"
+       )
+   )
+   
+       if st.button("🚀 Simülasyonu Başlat"):
+   
+       durum = st.empty()
+   
+       if senaryo == "🍔 Yemek yedim":
+   
+           durum.success("📡 Kan şekeri ölçülüyor...")
+           time.sleep(1)
+   
+           durum.info("📈 Kan şekeri yükseldi.")
+           time.sleep(1)
+   
+           durum.info("🍬 Pankreas insülin salgılıyor.")
+           time.sleep(1)
+   
+           durum.info("🧬 Hücreler glikoz almaya başladı.")
+           time.sleep(1)
+   
+           durum.success("✅ Kan şekeri normale döndü.")
+           st.balloons()
+   
+       elif senaryo == "😨 Sınava girdim":
+   
+           durum.success("📡 Stres düzeyi analiz ediliyor...")
+           time.sleep(1)
+   
+           durum.info("🧠 Hipotalamus ve hipofiz uyarıldı.")
+           time.sleep(1)
+   
+           durum.info("🔺 Böbreküstü bezleri kortizol salgılıyor.")
+           time.sleep(1)
+   
+           durum.info("⚡ Vücut daha fazla enerji üretmeye başladı.")
+           time.sleep(1)
+   
+           durum.success("✅ Stres yanıtı aktif.")
+           st.balloons()
+   
+       elif senaryo == "🏃 Egzersiz yaptım":
+   
+           durum.success("📡 Enerji ihtiyacı hesaplanıyor...")
+           time.sleep(1)
+   
+           durum.info("🍬 Glukagon salgısı arttı.")
+           time.sleep(1)
+   
+           durum.info("🧬 Karaciğerde glikojen parçalanıyor.")
+           time.sleep(1)
+   
+           durum.info("⚡ Kaslara glikoz gönderiliyor.")
+           time.sleep(1)
+   
+           durum.success("✅ Enerji dengesi sağlandı.")
+           st.balloons()
+   
+       elif senaryo == "😴 Uyandım":
+   
+           durum.success("📡 Günlük ritim analiz ediliyor...")
+           time.sleep(1)
+   
+           durum.info("🌅 Kortizol seviyesi doğal olarak yükseldi.")
+           time.sleep(1)
+   
+           durum.info("🧠 Beyin uyanıklık sinyalleri gönderiyor.")
+           time.sleep(1)
+   
+           durum.info("⚡ Metabolizma güne hazırlanıyor.")
+           time.sleep(1)
+   
+           durum.success("✅ Vücut güne hazır.")
+           st.balloons()
     st.divider()
     st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
 # ------------------------------------------------
