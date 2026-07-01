@@ -9,7 +9,7 @@ import random
 from streamlit_folium import st_folium
 import streamlit.components.v1 as components
 # Sayfa Ayarları
-st.set_page_config(page_title="BioTwin-Systems", layout="wide")
+st.set_page_config(page_title="Hormonlar", layout="wide")
 
 # -------------------------
 # CSS 
@@ -137,7 +137,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
 # -------------------------
 # SIDEBAR İÇERİĞİ (SOL TARAF)
 # -------------------------
@@ -155,7 +154,7 @@ with st.sidebar:
     
     menu = st.selectbox(
         "📍 Sayfanızı Seçin",
-         ["Ana Sayfa", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
+         ["Ana Sayfa:Hormonlar", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
     )
 
     st.markdown("---")
@@ -184,7 +183,7 @@ if menu == "Ana Sayfa:Hormonlar":
 
     .hero-title{
         font-size:3.4rem;
-        font-weight:600;
+        font-weight:800;
         color:white;
         margin-bottom:10px;
         letter-spacing:0.5px;
@@ -194,7 +193,7 @@ if menu == "Ana Sayfa:Hormonlar":
         font-size:1.8rem;
         color:#cbd5e1;
         margin-bottom:30px;
-        font-weight:400;
+        font-weight:500;
     }
 
     .hero-text{
@@ -274,29 +273,13 @@ if menu == "Ana Sayfa:Hormonlar":
     kelimeler = [
     {
         "kelime": "hormon",
-        "dil": "Türkçe",
-        "anlam": "Vücuttaki hücreler arasında iletişimi sağlayan kimyasal habercilerdir."
+        "dil", "anlam": "Vücuttaki hücreler arasında iletişimi sağlayan kimyasal habercilerdir."
     },
     {
         "kelime": "Endokrin sistem",
         "dil": "Türkçe",
         "anlam": "Hormonları üreten ve düzenleyen sistemdir."
-    },
-    {
-        "kelime": "Hedef Organ",
-        "dil": "Türkçe",
-        "anlam": "Bir hormonun etkisini gösterdiği, üzerinde özel hormon alıcıları bulunan organ veya hücrelerdir."
-    },
-    {
-        "kelime": "Homeostazi",
-        "dil": "Türkçe",
-        "anlam": "Vücudun iç dengesini (kan şekeri, sıcaklık, su dengesi gibi) koruma durumudur."
-    },
-    {
-        "kelime": "Geri Bildirim",
-        "dil": "Türkçe",
-        "anlam": "Feedback, Hormon üretiminin vücudun ihtiyacına göre artırılıp azaltılmasını sağlayan kontrol mekanizmasıdır"
-    },
+    }
 ]
     
     gunun_kelimesi = random.choice(kelimeler)
