@@ -154,7 +154,7 @@ with st.sidebar:
     
     menu = st.selectbox(
         "📍 Sayfanızı Seçin",
-         ["Ana Sayfa:Hormonlar", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
+         ["Ana Sayfa", "🟠 Kortizol","🔵 İnsülin", "🟣 Tiroksin","🟢 Parathormon–Kalsitonin"]
     )
 
     st.markdown("---")
@@ -183,7 +183,7 @@ if menu == "Ana Sayfa:Hormonlar":
 
     .hero-title{
         font-size:3.4rem;
-        font-weight:800;
+        font-weight:600;
         color:white;
         margin-bottom:10px;
         letter-spacing:0.5px;
@@ -193,7 +193,7 @@ if menu == "Ana Sayfa:Hormonlar":
         font-size:1.8rem;
         color:#cbd5e1;
         margin-bottom:30px;
-        font-weight:500;
+        font-weight:400;
     }
 
     .hero-text{
