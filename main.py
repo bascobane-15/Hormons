@@ -523,7 +523,7 @@ elif menu == "🎯Hormonlar":
     y_nodes = np.linspace(1, 9, 500)
     colors = ['#00bfff', '#40e0d0', '#00ffff', '#1e90ff']
    
-   for i in range(4):
+    for i in range(4):
        # Sinüs dalgalarıyla hormon bağlarının vücuda yayılma simülasyonu
        x_nodes = np.sin(y_nodes * 2 + i) * (0.5 + i * 0.3)
        ax.plot(x_nodes, y_nodes, color=colors[i], alpha=0.4 + (i * 0.1), linewidth=1.5, linestyle='--')
