@@ -616,7 +616,8 @@ elif menu == "🟣 Tiroksin":
 
     # 6. ÖĞRENCİLER İÇİN ÖZET
     st.subheader("""
-    **HPT Aksı Akış Şeması:** Hipotalamus (TRH) ➡️ Ön Hipofiz (TSH) ➡️ Tiroit Bezi (T4) ➡️ Hedef Dokular.
+    **HPT Aksı Akış Şeması:
+    * ** Hipotalamus (TRH) ➡️ Ön Hipofiz (TSH) ➡️ Tiroit Bezi (T4) ➡️ Hedef Dokular.
     """)
     
 # ------------------------------------------------
