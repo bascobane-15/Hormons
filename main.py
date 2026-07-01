@@ -470,7 +470,7 @@ elif menu == "🔵 İnsülin":
       - Glikojen depolanması  
            
       ---
-      📌 Glukagon Hormonu
+      ### 📌 Glukagon Hormonu
       
       **🏥 Salgılandığı yer:** Pankreas (Langerhans adacıkları - Alfa hücreleri)  
       
