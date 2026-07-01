@@ -318,7 +318,11 @@ if menu == "Ana Sayfa":
 # -------------------------
 elif menu == "🎯Hormonlar":
     
-    st.title("Hormonların Yolculuğu")
-    st.subheader("Hormonlar, vücudunuzdaki çeşitli organ ve dokuların işlevlerini koordine eden kimyasal habercilerdir. İç salgı bezleri tarafından üretilerek doğrudan kana salınırlar.")
+    st.title("🎯Hormonların Yolculuğu")
+    st.subheader(
+    "Her hormonun bir görevi, her görevin bir hedefi vardır. "
+    "Bu bölümde hormonların nerede üretildiğini, hangi organları etkilediğini "
+    "ve vücudumuzun kusursuz iletişim sistemini nasıl yönettiklerini keşfedeceksiniz."
+)
 
 
