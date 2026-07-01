@@ -506,15 +506,15 @@ elif menu == "🎯Hormonlar":
     st.divider()
 
     with st.sidebar:
-    with open("humanbady.mp4", "rb") as f:
-           video_bytes = f.read()
-           video_base64 = base64.b64encode(video_bytes).decode()
+          with open("humanbady.mp4", "rb") as f:
+              video_bytes = f.read()
+              video_base64 = base64.b64encode(video_bytes).decode()
    
-       st.markdown(f"""
-   <video width="100%" autoplay loop muted playsinline>
-       <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
-   </video>
-   """, unsafe_allow_html=True)
+                st.markdown(f"""
+            <video width="100%" autoplay loop muted playsinline>
+                <source src="data:video/mp4;base64,{video_base64}" type="video/mp4">
+            </video>
+            """, unsafe_allow_html=True)
 
 # ------------------------------------------------
 # KORTİZOL SEKME
