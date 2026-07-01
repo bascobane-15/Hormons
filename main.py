@@ -404,7 +404,7 @@ elif menu == "🎯Hormonlar":
                 color:#003049;
                 font-size:18px;
                 font-weight:bold;">
-                🧬 Homeostaz sağlandı — Vücut dengesi korundu
+                🧬 Homeostazi sağlandı — Vücut dengesi korundu
             </div>
             """, unsafe_allow_html=True)
 
@@ -426,7 +426,18 @@ elif menu == "🎯Hormonlar":
             """)
             time.sleep(3)
 
-            durum.success("✅ Stres yanıtı aktif")
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — ✅ Stres yanıtı aktif
+            
+            </div>
+            """, unsafe_allow_html=True)"
 
 
         elif senaryo == "🏃 Egzersiz yaptım":
@@ -446,8 +457,19 @@ elif menu == "🎯Hormonlar":
             """)
             time.sleep(3)
 
-            durum.success("✅ Enerji dengesi sağlandı")
-
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — ✅ Enerji dengesi kuruldu
+            
+            </div>
+            """, unsafe_allow_html=True)"
 
         elif senaryo == "😴 Uyandım":
 
@@ -466,7 +488,18 @@ elif menu == "🎯Hormonlar":
             """)
             time.sleep(3)
 
-            durum.success("✅ Sistem aktif")  
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — Vücut dengesi korundu
+            </div>
+            """, unsafe_allow_html=True) 
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
