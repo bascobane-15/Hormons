@@ -701,8 +701,13 @@ elif menu == "🔵 İnsülin":
 elif menu == "🟣 Tiroksin":
     st.header("🦋 Tiroksin Hormonu")
     st.write("""
-           "Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir. "
-           "Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
+            Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir.
+            Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
+     """)
+    st.write("""
+           Tiroksin (T4), boynun ön kısmında bulunan **tiroit bezi** tarafından salgılanan önemli bir hormondur.
+           Metabolizma hızını düzenleyerek hücrelerin enerji üretimini kontrol eder.
+           Vücudun büyümesi, gelişmesi, kalp atış hızı, vücut sıcaklığı ve sinir sistemi üzerinde önemli etkileri vardır.
      """)
     st.subheader("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
     
