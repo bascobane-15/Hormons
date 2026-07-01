@@ -351,3 +351,5 @@ st.info(
     "Bu bölümde her hormonun görevini, salgılandığı bezi ve etkilediği organları keşfedeceksiniz."
 )
 
+st.divider()
+st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
