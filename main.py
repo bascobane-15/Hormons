@@ -506,8 +506,7 @@ elif menu == "🎯Hormonlar":
     st.divider()
 
     with st.sidebar:
-   
-       with open("humanbady.mp4", "rb") as f:
+    with open("humanbady.mp4", "rb") as f:
            video_bytes = f.read()
            video_base64 = base64.b64encode(video_bytes).decode()
    
