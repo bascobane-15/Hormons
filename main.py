@@ -337,7 +337,7 @@ elif menu == "🎯Hormonlar":
     with col2:
         st.video("endokrinbez.mp4")
     st.divider()
-    st.subheader("Endokrin Bezler ve Hormonları")
+    st.title("Endokrin Bezler ve Hormonları")
 
     st.write("""
     Hormonlar Nasıl Çalışır?  
@@ -508,7 +508,7 @@ elif menu == "🎯Hormonlar":
     col1, col2, col3 = st.columns([1,2,1])
 
     with col2:
-    st.video("humanbady.mp4")
+       st.video("humanbady.mp4")
     st.divider()
     
 
