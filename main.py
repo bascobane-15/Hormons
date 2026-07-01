@@ -353,3 +353,64 @@ st.info(
 
 st.divider()
 st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
+# ------------------------------------------------
+# KORTİZOL SEKME
+# ------------------------------------------------
+elif menu == "🟠 Kortizol"
+    st.title("Kortizol: Stres ve Sistemik Etkiler")
+    
+    # 1. GİRDİ ALANI
+    stress = st.slider("Stres Düzeyi (Psikolojik/Fiziksel)", 0, 100, 50)
+    
+    # Matematiksel Hesaplama
+    kortizol_seviyesi = stress * 1.15
+    
+    # 2. GÖRSEL GÖSTERGE (Gauge)
+    import plotly.graph_objects as go
+    fig = go.Figure(go.Indicator(
+        mode = "gauge+number",
+        value = kortizol_seviyesi,
+        title = {'text': "Kortizol Konsantrasyonu"},
+        gauge = {
+            'axis': {'range': [None, 120]},
+            'bar': {'color': "darkred"},
+            'steps' : [
+                {'range': [0, 40], 'color': "#d9f2d9"},
+                {'range': [40, 80], 'color': "#ffebcc"},
+                {'range': [80, 120], 'color': "#ffcccc"}],
+            'threshold': {'line': {'color': "black", 'width': 4}, 'value': 100}}))
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.divider()
+
+    # 3. AKADEMİK BİLGİ ALANI (Ders Materyali Bölümü)
+    st.subheader("📚 Klinik Bilgi Paneli: Kortizol Artışının Etkileri")
+    
+    col_info1, col_info2 = st.columns(2)
+
+    with col_info1:
+        st.markdown("""
+        **1. Metabolik Etkiler:**
+        * **Glukoneojenez:** Karaciğerde glikoz üretimini artırarak kan şekerini yükseltir.
+        * **Protein Katabolizması:** Kas dokusunda protein yıkımına neden olur (kas zayıflığı).
+        * **Lipoliz:** Yağların parçalanıp kanda serbest yağ asitlerinin artmasına yol açar.
+        
+        **2. Bağışıklık Sistemi:**
+        * **İmmünsupresyon:** Lökosit aktivitesini baskılayarak bağışıklığı zayıflatır.
+        * **Anti-inflamatuar:** Enflamasyonu (yangıyı) azaltır (Bu yüzden ilaç olarak kullanılır).
+        """)
+
+    with col_info2:
+        st.markdown("""
+        **3. Kardiyovasküler Etkiler:**
+        * **Hipertansiyon:** Kan damarlarının adrenalin gibi maddelere duyarlılığını artırarak tansiyonu yükseltir.
+        
+        **4. Uzun Vadeli (Kronik) Sonuçlar:**
+        * **Cushing Sendromu:** Kronik yüksek kortizol sonucu oluşan klinik tablo.
+        * **Obezite:** Özellikle gövde ve yüz bölgesinde (ay dede yüzü) yağlanma.
+        * **Osteoporoz:** Kemik yapımını azaltıp yıkımını hızlandırır.
+        """)
+
+    # 4. DİNAMİK ÖĞRENCİ NOTU
+    if stress > 80:
+        st.info("💡 **Eğitim Notu:** Şu anki yüksek değerler, vücudun 'Savaş veya Kaç' (Fight or Flight) modunda takılı kaldığını simüle ediyor. Bu durumda protein yıkımı (kas erimesi) maksimumdadır.")
