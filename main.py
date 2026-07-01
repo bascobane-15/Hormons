@@ -437,7 +437,7 @@ elif menu == "🎯Hormonlar":
                 🧬 Homeostazi sağlandı — Stres yanıtı aktif
             
             </div>
-            """, unsafe_allow_html=True)"
+            """, unsafe_allow_html=True)
 
 
         elif senaryo == "🏃 Egzersiz yaptım":
@@ -469,7 +469,7 @@ elif menu == "🎯Hormonlar":
                 🧬 Homeostazi sağlandı — Enerji dengesi kuruldu
             
             </div>
-            """, unsafe_allow_html=True)"
+            """, unsafe_allow_html=True)
 
         elif senaryo == "😴 Uyandım":
 
