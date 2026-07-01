@@ -441,3 +441,5 @@ elif menu == "🟠 Kortizol":
     # 4. DİNAMİK ÖĞRENCİ NOTU
     if stress > 80:
         st.info("💡 **Eğitim Notu:** Şu anki yüksek değerler, vücudun 'Savaş veya Kaç' (Fight or Flight) modunda takılı kaldığını simüle ediyor. Bu durumda protein yıkımı (kas erimesi) maksimumdadır.")
+        st.divider()
+        st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
