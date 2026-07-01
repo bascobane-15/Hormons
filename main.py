@@ -691,8 +691,9 @@ elif menu == "🟢 Parathormon–Kalsitonin":
         - Kemik yapısı korunur
         """)
     else:
-        st.info("ℹ️ Kalsiyum dengede → İskelet sistemi homeostazı sağlanıyor")
-
+        st.write("""
+        ℹ️ Kalsiyum dengede → İskelet sistemi homeostazı sağlanıyor")
+        """)
 
 
 st.divider()
