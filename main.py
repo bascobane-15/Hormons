@@ -315,5 +315,10 @@ if menu == "Ana Sayfa":
             <p style="margin-top: 10px; font-size: 1rem; line-height: 1.5;">{gunun_kelimesi['anlam']}</p>
         </div>
     """, unsafe_allow_html=True)
-    
 # -------------------------
+elif menu == "🎯Hormonlar":
+    
+    st.title("Hormonların Yolculuğu")
+    st.subheader("Hormonlar, vücudunuzdaki çeşitli organ ve dokuların işlevlerini koordine eden kimyasal habercilerdir. İç salgı bezleri tarafından üretilerek doğrudan kana salınırlar.")
+
+
