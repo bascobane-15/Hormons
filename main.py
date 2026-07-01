@@ -395,7 +395,18 @@ elif menu == "🎯Hormonlar":
             """)
             time.sleep(3)
 
-            durum.success("✅ Homeostaz sağlandı")
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostaz sağlandı — Vücut dengesi korundu
+            </div>
+            """, unsafe_allow_html=True)
 
 
         elif senaryo == "😨 Sınava girdim":
@@ -403,17 +414,17 @@ elif menu == "🎯Hormonlar":
             durum.write("""
             "📡 Stres seviyesi ölçülüyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "🔺 Böbreküstü bezleri kortizol salgılıyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "⚡ Vücut enerji hazırlıyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.success("✅ Stres yanıtı aktif")
 
@@ -423,17 +434,17 @@ elif menu == "🎯Hormonlar":
             durum.write("""
             "📡 Enerji ihtiyacı hesaplanıyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "🧬 Glukagon devreye giriyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "💪 Kaslara enerji gönderiliyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.success("✅ Enerji dengesi sağlandı")
 
@@ -443,17 +454,17 @@ elif menu == "🎯Hormonlar":
             durum.write("""
             "🌅 Biyolojik saat analiz ediliyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "🔺 Kortizol seviyesi yükseliyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.write("""
             "🧠 Vücut güne hazırlanıyor..."
             """)
-            time.sleep(1)
+            time.sleep(3)
 
             durum.success("✅ Sistem aktif")  
 # ------------------------------------------------
