@@ -27,13 +27,7 @@ st.markdown("""
         background-color: #ffffff !important;
         border-right: 1px solid #e2e8f0;
     }
-    /* Info kutuları ana panele uyumlu */
-        .stAlert {
-            background-color: #343a40;
-            color: #ffffff;
-            border: 1px solid #495057;
-    }
-
+   
     /* Sidebar Marka Başlığı Stili */
 .sidebar-brand-title {
     font-size: 1.5rem !important; /* Yazı boyutunu büyüttük */
