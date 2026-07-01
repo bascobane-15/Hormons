@@ -705,17 +705,17 @@ elif menu == "🟣 Tiroksin":
             Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
      """)
     st.markdown("""
-   ### 📌 Temel Bilgiler
+    ### 📌 Temel Bilgiler
    
-   **🏥 Salgılandığı bez:** Troit bezi  
+    **🏥 Salgılandığı bez:** Troit bezi  
    
-   **⚡ Temel görevi:**  
-   Metabolizma hızını artırır.
-   Hücrelerin enerji üretimini destekler.
-   Vücut sıcaklığının korunmasına katkı sağlar.
+    **⚡ Temel görevi:**  
+    Metabolizma hızını artırır.
+    Hücrelerin enerji üretimini destekler.
+    Vücut sıcaklığının korunmasına katkı sağlar.
    
-   **🎯 Hedef Organı:**  
-   - Vücuttaki hemen hemen tüm hücreler 
+    **🎯 Hedef Organı:**  
+    Vücuttaki hemen hemen tüm hücreler 
       
     st.write("""
            Tiroksin metabolizma hızını düzenleyerek hücrelerin enerji üretimini kontrol eder.
