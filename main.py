@@ -707,7 +707,7 @@ elif menu == "🟣 Tiroksin":
     st.markdown("""
     ### 📌 Temel Bilgiler
    
-    **🏥 Salgılandığı bez:** Troit bezi  
+    **Salgılandığı bez:** Troit bezi  
    
     **⚡ Temel görevi:**  
     Metabolizma hızını artırır.
@@ -784,14 +784,11 @@ elif menu == "🟣 Tiroksin":
         * **Zihinsel:** Unutkanlık, yavaş düşünme ve depresyon eğilimi.
         * **Fiziksel:** Soğuğa tahammülsüzlük, halsizlik ve cilt kuruluğu.
         """)
-
-
-    
+   st.divider()
 # ------------------------------------------------
 # PARATHORMON – KALSİTONİN SEKME
 # ------------------------------------------------
-
-elif menu == "🟢 Parathormon–Kalsitonin":
+elif menu =="🟢 Parathormon–Kalsitonin":
     st.header("🦴 Parathormon ve Kalsitonin")
 
     st.write("""
@@ -804,7 +801,7 @@ elif menu == "🟢 Parathormon–Kalsitonin":
     ### 📌 Parathormon (PTH)
    
     **🏥 Salgılandığı bez:** Paratiroit bezleri
-   
+    
     **⚡ Temel görevi:**  
     Kan kalsiyum seviyesi düştüğünde kemiklerden kalsiyum salınımını artırır, böbreklerden kalsiyum geri emilimini destekler ve böylece kan kalsiyum düzeyini yükseltir.
    
