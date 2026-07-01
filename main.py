@@ -548,7 +548,7 @@ elif menu == "🔵 İnsülin":
 # ------------------------------------------------
 # TİROKSİN SEKME
 # ------------------------------------------------
-with tabs[3]:
+elif menu == "🟣 Tiroksin":
     st.header("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
     
     # 1. GİRDİ ALANI: Tiroit Bezi Aktivitesi
@@ -622,7 +622,7 @@ with tabs[3]:
 # PARATHORMON – KALSİTONİN SEKME
 # ------------------------------------------------
 
-with tabs[4]:
+elif menu == "🟢 Parathormon–Kalsitonin":
     st.header("Parathormon – Kalsitonin (Kalsiyum Dengesi)")
 
     st.markdown("""
