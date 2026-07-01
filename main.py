@@ -729,7 +729,20 @@ elif menu == "🟢 Parathormon–Kalsitonin":
         st.write("""
         ℹ️ Kalsiyum dengede → İskelet sistemi homeostazı sağlanıyor")
         """)
-
+    st.warning("""
+   ### 🩺 Klinik Bilgi Paneli
+   
+   🔹 **Parathormonun yetersiz salgılanması (Hipoparatiroidizm):**
+   Kandaki kalsiyum düzeyi düşer. Kas krampları, kasılmalar, karıncalanma ve nöbetler görülebilir.
+   
+   🔹 **Parathormonun fazla salgılanması (Hiperparatiroidizm):**
+   Kan kalsiyum düzeyi yükselir. Kemiklerde zayıflama, böbrek taşı, kas güçsüzlüğü ve yorgunluk gelişebilir.
+   
+   🔹 **Kalsitonin:**
+   İnsanlarda kalsiyum dengesindeki etkisi parathormona göre daha sınırlıdır. Ancak yüksek düzeyleri bazı tiroit hastalıklarının değerlendirilmesinde klinik belirteç olarak kullanılabilir.
+   
+   ⚠️ **Unutmayın:** Parathormon ve kalsitonin birlikte çalışarak kandaki kalsiyum seviyesini dengeler. Bu denge; kemik sağlığı, kasların kasılması ve sinir iletimi için büyük önem taşır.
+   """)
 
 st.divider()
 st.caption("BioTwin-Systems | Eğitim Amaçlı Dijital İkiz Modeli")
