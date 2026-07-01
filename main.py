@@ -625,7 +625,7 @@ elif menu == "🟣 Tiroksin":
 # ------------------------------------------------
 
 elif menu == "🟢 Parathormon–Kalsitonin":
-    st.subheader("🦴 Parathormon ve Kalsitonin")
+    st.header("🦴 Parathormon ve Kalsitonin")
 
     st.write("""
        "Parathormon ve kalsitonin, kandaki kalsiyum düzeyini düzenleyen iki önemli "
