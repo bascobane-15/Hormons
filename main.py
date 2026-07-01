@@ -505,58 +505,46 @@ elif menu == "🎯Hormonlar":
             """, unsafe_allow_html=True) 
     st.divider()
 
-    # 1. Karanlık ve fütüristik siberpunk tema ayarları
+    # Web sayfasının en üstüne bir başlık yazalım
+    st.title("Fütüristik Endokrin Sistem Ekranı")
+   
+    # Arka planı koyu siberpunk teması yapıyoruz
     plt.style.use('dark_background')
     fig, ax = plt.subplots(figsize=(10, 8), facecolor='#030812')
     ax.set_facecolor('#030812')
    
-    # 2. Hologram İnsan Omurgası / Merkez Aksı (Dikey parlayan çizgi)
+    # Hologram omurgası (Merkezdeki düz çizgi)
     y_spine = np.linspace(0, 10, 100)
     x_spine = np.zeros_like(y_spine)
-   
-    # HATA VEREN SATIR DÜZELTİLDİ: shadow=True kaldırıldı, fütüristik parlama efekti eklendi
-    line, = ax.plot(x_spine, y_spine, color='#40e0d0', linewidth=4, alpha=0.8, label="MERKEZ_AKSI")
+    line, = ax.plot(x_spine, y_spine, color='#40e0d0', linewidth=4, alpha=0.8)
     line.set_path_effects([path_effects.SimpleLineShadow(offset=(0, 0), shadow_color='#40e0d0', alpha=0.4, linewidth=10),
                           path_effects.Normal()])
    
-    # 3. Mavi-Turkuaz Işıklı Hormon Bağlantıları (Dalga fonksiyonları)
+    # Mavi ve turkuaz dalgalı hormon bağları
     y_nodes = np.linspace(1, 9, 500)
     colors = ['#00bfff', '#40e0d0', '#00ffff', '#1e90ff']
-   
     for i in range(4):
-       # Sinüs dalgalarıyla hormon bağlarının vücuda yayılma simülasyonu
        x_nodes = np.sin(y_nodes * 2 + i) * (0.5 + i * 0.3)
-       ax.plot(x_nodes, y_nodes, color=colors[i], alpha=0.4 + (i * 0.1), linewidth=1.5, linestyle='--')
-       ax.plot(-x_nodes, y_nodes, color=colors[i], alpha=0.4 + (i * 0.1), linewidth=1.5, linestyle='--')
+       ax.plot(x_nodes, y_nodes, color=colors[i], alpha=0.4, linewidth=1.5, linestyle='--')
+       ax.plot(-x_nodes, y_nodes, color=colors[i], alpha=0.4, linewidth=1.5, linestyle='--')
    
-    # 4. Hormon Bezlerini Temsil Eden Parlayan Dijital Noktalar (Düğümler)
+    # Bezleri temsil eden parlayan noktalar ve yazılar
     bez_y = [9, 8.2, 7.3, 6, 4.5, 3.2, 1.5]
     bez_isimleri = ['EPIFIZ', 'TIROID', 'TIMUS', 'B_USTU', 'PANKREAS', 'TESTIS/YUMURTALIK']
-   
     for y, isim in zip(bez_y, bez_isimleri):
-       # Parlama efekti için üst üste farklı opaklıkta noktalar koyuyoruz
        ax.scatter(0, y, color='#00ffff', s=300, alpha=0.2)
        ax.scatter(0, y, color='#40e0d0', s=100, alpha=0.6)
        ax.scatter(0, y, color='#ffffff', s=20, alpha=1)
-       
-       # Dijital Sağlık Ekranı Yazıları (HUD verileri)
        ax.text(0.3, y, f">> {isim}_FLOW: STABIL", color='#40e0d0', fontsize=9, fontweight='bold', family='monospace')
    
-    # 5. Ekran Süslemeleri ve Siberpunk Arayüz Çizgileri
-    ax.text(-2.2, 9.5, "SYS_STATUS: ACTIVE [LOG_09]", color='#00bfff', fontsize=12, family='monospace', weight='bold')
-    ax.text(1.2, 0.5, "GRID_MODE: HOLOGRAM_V2", color='#1e90ff', fontsize=10, family='monospace')
-    ax.axhline(y=9.8, color='#40e0d0', alpha=0.2, linestyle='-')
-    ax.axhline(y=0.2, color='#40e0d0', alpha=0.2, linestyle='-')
-   
-    # Grafiği temizleme (Eksen çizgilerini gizleme)
-    ax.set_xlim(-2.5, 2.5)
-    ax.set_ylim(0, 10)
+    # Ekran süsleri
+    ax.text(-2.2, 9.5, "SYS_STATUS: ACTIVE", color='#00bfff', fontsize=12, family='monospace', weight='bold')
     ax.axis('off')
    
-    # Görseli kaydetme ve ekranda gösterme
-    plt.title("ENDOKRIN_SISTEM_DIJITAL_HUD", color='#40e0d0', fontsize=14, pad=20, family='monospace')
-    plt.savefig("hologram_hormon_ekrani.png", dpi=300, bbox_inches='tight', facecolor=fig.get_facecolor())
-    plt.show()
+    # 2. İŞTE SİHİRLİ DOKUNUŞ BURASI: 
+    # Eski plt.show() yerine st.pyplot(fig) yazdık. 
+    # Bu komut "Çizdiğin bu resmi web sitesi ekranına fırlat" demektir.
+    st.pyplot(fig)
 # ------------------------------------------------
 # KORTİZOL SEKME
 # ------------------------------------------------
