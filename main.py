@@ -701,7 +701,7 @@ elif menu == "🔵 İnsülin":
 elif menu == "🟣 Tiroksin":
     st.title("🦋 Tiroksin (T4) Hormonu")
 
-    st.Write(("""
+    st.Write("""
     "💡 Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir. "
     "Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
     """)
