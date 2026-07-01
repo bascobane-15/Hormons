@@ -369,11 +369,11 @@ elif menu == "🎯Hormonlar":
        )
    )
    
-       if st.button("🚀 Simülasyonu Başlat"):
+   if st.button("🚀 Simülasyonu Başlat"):
    
        durum = st.empty()
    
-       if senaryo == "🍔 Yemek yedim":
+   if senaryo == "🍔 Yemek yedim":
    
            durum.success("📡 Kan şekeri ölçülüyor...")
            time.sleep(1)
@@ -390,7 +390,7 @@ elif menu == "🎯Hormonlar":
            durum.success("✅ Kan şekeri normale döndü.")
            st.balloons()
    
-       elif senaryo == "😨 Sınava girdim":
+   elif senaryo == "😨 Sınava girdim":
    
            durum.success("📡 Stres düzeyi analiz ediliyor...")
            time.sleep(1)
@@ -407,7 +407,7 @@ elif menu == "🎯Hormonlar":
            durum.success("✅ Stres yanıtı aktif.")
            st.balloons()
    
-       elif senaryo == "🏃 Egzersiz yaptım":
+   elif senaryo == "🏃 Egzersiz yaptım":
    
            durum.success("📡 Enerji ihtiyacı hesaplanıyor...")
            time.sleep(1)
@@ -424,7 +424,7 @@ elif menu == "🎯Hormonlar":
            durum.success("✅ Enerji dengesi sağlandı.")
            st.balloons()
    
-       elif senaryo == "😴 Uyandım":
+   elif senaryo == "😴 Uyandım":
    
            durum.success("📡 Günlük ritim analiz ediliyor...")
            time.sleep(1)
