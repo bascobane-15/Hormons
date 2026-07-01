@@ -704,9 +704,29 @@ elif menu == "🟣 Tiroksin":
             Tiroksin, vücudun enerji üretimini, büyümesini ve metabolizma hızını düzenleyen temel hormonlardan biridir.
             Bu bölümde tiroksinin nasıl salgılandığını ve vücutta hangi görevleri üstlendiğini keşfedeceksiniz."
      """)
+    st.markdown("""
+   ### 📌 Temel Bilgiler
+   
+   **🏥 Salgılandığı bez:** Troit bezi  
+   
+   **⚡ Temel görevi:**  
+   ✅ Metabolizma hızını artırır.
+
+   ✅ Hücrelerin enerji üretimini destekler.
+
+   ✅ Vücut sıcaklığının korunmasına katkı sağlar.
+
+   ✅ Kalp atış hızını düzenler.
+
+   ✅ Çocuklarda büyüme ve beyin gelişimini destekler.
+
+   ✅ Protein sentezini ve hücre yenilenmesini hızlandırır.
+   
+   **🎯 Hedef Organı:**  
+   - Vücuttaki hemen hemen tüm hücreler 
+      
     st.write("""
-           Tiroksin (T4), boynun ön kısmında bulunan **tiroit bezi** tarafından salgılanan önemli bir hormondur.
-           Metabolizma hızını düzenleyerek hücrelerin enerji üretimini kontrol eder.
+           Tiroksin metabolizma hızını düzenleyerek hücrelerin enerji üretimini kontrol eder.
            Vücudun büyümesi, gelişmesi, kalp atış hızı, vücut sıcaklığı ve sinir sistemi üzerinde önemli etkileri vardır.
      """)
     st.subheader("Tiroksin ve HPT Aksı: Negatif Feedback Mekanizması")
