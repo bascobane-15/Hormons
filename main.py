@@ -219,7 +219,7 @@ if menu == "Ana Sayfa":
     </div>
 
     <div class="hero-text">
-    Hormon sentezi, geri bildirim mekanizmaları ile hormon azlığı veya fazlalığının yol açtığı klinik tabloları modelleyen dinamik simülasyon platformu..
+    Hormon sentezi, geri bildirim mekanizmaları ile hormon azlığı veya fazlalığının yol açtığı klinik tabloları modelleyen dinamik simülasyon platformu.
     </div>
 
     </div>
