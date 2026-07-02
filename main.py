@@ -6,9 +6,6 @@ import base64
 import folium
 import time
 import random
-import matplotlib.pyplot as plt
-import matplotlib.patheffects as path_effects
-import numpy as np
 from streamlit_folium import st_folium
 import streamlit.components.v1 as components
 # Sayfa Ayarları
