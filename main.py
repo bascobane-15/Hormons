@@ -537,7 +537,7 @@ elif menu == "🟠 Kortizol":
     stress = st.slider("Stres Düzeyi (Psikolojik/Fiziksel)", 0, 100, 50)
     
     # Matematiksel Hesaplama
-    kortizol_seviyesi = 10 + 90*(1-math.exp(-0.03*stress))
+    kortizol_seviyesi = stress * 1.15
     
     # 2. GÖRSEL GÖSTERGE (Gauge)
     import plotly.graph_objects as go
