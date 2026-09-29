@@ -161,10 +161,10 @@ with st.sidebar:
     # 4. Sol Alt Açıklama Metni (Siyah ve Büyük Stil)
     st.markdown("""
         <div class="sidebar-footer">
-            Bu platform, insan fizyolojisini dijital dünyada modellemek amacıyla başlatılan **BioTwin-Systems** serisinin ilk modülüdür. Şu an yayında olan **Endokrin Sistem** modülüdür. 
+            Bu platform, insan fizyolojisini dijital dünyada modellemek amacıyla başlatılan **BioTwin-Homeostazi** serisinin ilk modülüdür. Şu an yayında olan **Hormonlar-homeostazi** modülüdür. 
     
     **Gelecek Planları:**
-    * 🫀 Dolaşım ve Solunum Sistemi Simülasyonları
+    * 🫀 Dolaşım ve Solunum - homeostazi Simülasyonları
            
     Çalışmamız, eğitimde dijital ikiz kullanımını yaygınlaştırmak için geliştirilmeye devam etmektedir.
     </div>
@@ -215,11 +215,11 @@ if menu == "Ana Sayfa":
     </div>
 
     <div class="hero-subtitle">
-    Endokrin Sistem Dijital İkizi
+    Biyolojik Dengenin Dijital İkizi
     </div>
 
     <div class="hero-text">
-    Hormon sentezi, geri bildirim mekanizmaları ile hormon azlığı veya fazlalığının yol açtığı klinik tabloları modelleyen dinamik simülasyon platformu.
+    Biyolojik sistemlerde iç dengenin nasıl korunduğunu dijital ikiz ve dinamik simülasyonlar aracılığıyla görünür hâle getiren etkileşimli bir biyoloji öğrenme platformudur.
     </div>
 
     </div>
