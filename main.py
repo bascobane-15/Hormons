@@ -161,10 +161,10 @@ with st.sidebar:
     # 4. Sol Alt Açıklama Metni (Siyah ve Büyük Stil)
     st.markdown("""
         <div class="sidebar-footer">
-            Bu platform, insan fizyolojisini dijital dünyada modellemek amacıyla başlatılan **BioTwin-Homeostazi** serisinin ilk modülüdür. Şu an yayında olan **Hormonlar-homeostazi** modülüdür. 
+            Bu platform, insan fizyolojisini dijital dünyada modellemek amacıyla başlatılan * BioTwin-Homeostazi * serisinin ilk modülüdür. Şu an yayında olan **Hormonlar-homeostazi** modülüdür. 
     
-    **Gelecek Planları:**
-    * 🫀 Dolaşım ve Solunum - homeostazi Simülasyonları
+    *Gelecek Planları:*
+    🫀 Dolaşım ve Solunum - homeostazi Simülasyonları
            
     Çalışmamız, eğitimde dijital ikiz kullanımını yaygınlaştırmak için geliştirilmeye devam etmektedir.
     </div>
