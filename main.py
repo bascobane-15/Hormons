@@ -163,8 +163,9 @@ with st.sidebar:
         <div class="sidebar-footer">
             Bu platform, insan fizyolojisini dijital dünyada modellemek amacıyla başlatılan * BioTwin-Homeostazi * serisinin ilk modülüdür. Şu an yayında olan **Hormonlar-homeostazi** modülüdür. 
     
-    *Gelecek Planları:*
-    🫀 Dolaşım ve Solunum - homeostazi Simülasyonları
+    *Gelecek Planlar:*
+    * 🫀 Dolaşım - homeostazi, 
+    * 🫁 Solunum - homeostazi, Simülasyonları hazırlanacaktır. 
            
     Çalışmamız, eğitimde dijital ikiz kullanımını yaygınlaştırmak için geliştirilmeye devam etmektedir.
     </div>
