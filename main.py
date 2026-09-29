@@ -354,7 +354,7 @@ elif menu == "🎯Hormonlar":
 
     # 🤖 BioTwin Dijital İkiz Simülasyonu
 
-    st.subheader("🤖 BioTwin Dijital İkiz Simülasyonu")
+    st.subheader("🤖 BioTwin Homeostazi Simülasyonu")
 
     st.write("""
         "Günlük yaşamda vücudumuzda gerçekleşen hormonal değişimleri "
