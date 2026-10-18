@@ -692,7 +692,154 @@ elif menu == "🔵 İnsülin":
         st.warning(f"⚠️ **Hipoglisemi:** Kan şekeri düşük ({glikoz} mg/dL). Glukagon devreye girerek karaciğerden kana şeker salınmasını uyarıyor.")
     else:
         st.success("✅ **Normoglisemi:** Kan şekeri ideal aralıkta. Homeostaz korunuyor.")
-      
+     # 🤖 BioTwin Dijital İkiz Simülasyonu
+
+    st.subheader("🤖 BioTwin Homeostazi Simülasyonu")
+
+    st.write("""
+        "Günlük yaşamda vücudumuzda gerçekleşen hormonal değişimleri "
+        "BioTwin modeli ile keşfedin."
+     """)
+
+
+    senaryo = st.selectbox(
+        "🎯 Bir günlük yaşam senaryosu seçin:",
+        [
+            "🍔 Yemek yedim",
+            "😨 Sınava girdim",
+            "🏃 Egzersiz yaptım",
+            "😴 Uyandım"
+        ]
+    )
+
+
+    if st.button("🚀 BioTwin Analizini Başlat"):
+
+        durum = st.empty()
+
+
+        if senaryo == "🍔 Yemek yedim":
+
+            durum.write("""
+            "📡 Kan şekeri analiz ediliyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "🍬 Pankreas insülin salgılıyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "🧬 Hücreler glikoz almaya başladı..."
+            """)
+            time.sleep(3)
+
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — Vücut dengesi korundu
+            </div>
+            """, unsafe_allow_html=True)
+
+
+        elif senaryo == "😨 Sınava girdim":
+
+            durum.write("""
+            "📡 Stres seviyesi ölçülüyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "🔺 Böbreküstü bezleri kortizol salgılıyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "⚡ Vücut enerji hazırlıyor..."
+            """)
+            time.sleep(3)
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — Stres yanıtı aktif
+            
+            </div>
+            """, unsafe_allow_html=True)
+
+
+        elif senaryo == "🏃 Egzersiz yaptım":
+
+            durum.write("""
+            "📡 Enerji ihtiyacı hesaplanıyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "🧬 Glukagon devreye giriyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "💪 Kaslara enerji gönderiliyor..."
+            """)
+            time.sleep(3)
+
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — Enerji dengesi kuruldu
+            
+            </div>
+            """, unsafe_allow_html=True)
+
+        elif senaryo == "😴 Uyandım":
+
+            durum.write("""
+            "🌅 Biyolojik saat analiz ediliyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "🔺 Kortizol seviyesi yükseliyor..."
+            """)
+            time.sleep(3)
+
+            durum.write("""
+            "🧠 Vücut güne hazırlanıyor..."
+            """)
+            time.sleep(3)
+
+            durum.markdown("""
+            <div style="
+                background-color:#d9f2ff;
+                padding:15px;
+                border-radius:10px;
+                border-left:8px solid #0077b6;
+                color:#003049;
+                font-size:18px;
+                font-weight:bold;">
+                🧬 Homeostazi sağlandı — Vücut dengesi korundu
+            </div>
+            """, unsafe_allow_html=True)          
 # ------------------------------------------------
 # TİROKSİN SEKME
 # ------------------------------------------------
