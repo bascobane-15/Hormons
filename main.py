@@ -212,7 +212,7 @@ if menu == "Ana Sayfa":
     <div style="text-align:center; padding:60px 0;">
     
     <div class="hero-title">
-    🩻 BioTwin-Homeostazi
+    🩻 BioTwin Model
     </div>
 
     <div class="hero-subtitle">
